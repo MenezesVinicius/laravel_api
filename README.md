@@ -17,6 +17,7 @@
 * Método GET
 
 Retornar todos os usuários: http://localhost:8000/api/usuarios
+
 Retornar usuário específico: http://localhost:8000/api/usuarios/{id}
 
 * Método POST
