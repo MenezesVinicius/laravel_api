@@ -1,11 +1,32 @@
 # Laravel API
 
-git clone https://github.com/MenezesVinicius/laravel_api laravel_api
+### Setup
 
-cd laravel_api
+`git clone https://github.com/MenezesVinicius/laravel_api laravel_api`
 
-composer install
+`cd laravel_api`
 
-php artisan migrate
+`composer install`
 
-php artisan serve
+`php artisan migrate`
+
+`php artisan serve`
+
+### Métodos
+
+* Método GET
+
+Retornar todos os usuários: http://localhost:8000/api/usuarios
+Retornar usuário específico: http://localhost:8000/api/usuarios/{id}
+
+* Método POST
+
+Inserir novo usuário: http://localhost:8000/api/usuarios
+
+* Método PUT
+
+Atualizar usuário: http://localhost:8000/api/usuarios/{id}
+
+* Método DELETE
+
+Deletar usuário: http://localhost:8000/api/usuarios/{id}
